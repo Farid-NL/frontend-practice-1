@@ -1,0 +1,53 @@
+/* General */
+body {
+  margin: 0;
+  background-color: #FFFBF3;
+  font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+  margin: 2em;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Navbar */
+nav ul {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+
+  width: 30%;
+  height: 100vh;
+  margin: 0;
+  padding: 2em;
+
+  background-color: white;
+  list-style: none;
+
+  text-align: right;
+
+  li {
+    margin: 2em 0;
+
+    &:nth-of-type(1) {
+      margin-bottom: 4em;
+    }
+
+    a {
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: black;
+      text-decoration: none;
+
+      &:hover {
+        color: #FFA800;
+      }
+    }
+  }
+}
