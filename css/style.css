@@ -69,3 +69,50 @@ nav ul {
     }
   }
 }
+
+.hero {
+  margin-top: 7em;
+
+  h1, p {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+
+    img {
+      display: block;
+
+      height: 0.85em;
+      margin: 0.2em auto 0 auto;
+    }
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .primary-cta {
+    display: block;
+
+    width: 17rem;
+    margin: 2em auto 0 auto;
+    padding: 0.4em;
+    box-sizing: border-box;
+
+    background-color: #FFA800;
+    border-radius: 0.25em;
+
+    font-weight: bold;
+    font-size: 2.25rem;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+    &:hover {
+      box-shadow: inset 0 0 0 0.2rem black;
+    }
+  }
+}
+
