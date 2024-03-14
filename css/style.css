@@ -116,3 +116,45 @@ nav ul {
   }
 }
 
+.cat {
+  position: relative;
+  height: 500px;
+
+  img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    height: 247px;
+
+    transform: translate(-36%, -50%);
+  }
+
+  .inner-circle, .outer-circle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    border-radius: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+
+  .inner-circle {
+    z-index: -1;
+
+    width: 305px;
+    height: 305px;
+
+    background-color: #FFEBC3;
+  }
+
+  .outer-circle {
+    z-index: -2;
+
+    width: 573px;
+    height: 573px;
+
+    background-color: white;
+  }
+}
