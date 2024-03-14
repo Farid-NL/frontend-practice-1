@@ -22,6 +22,12 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+
+  .header-left {
+    img {
+      height: 2em;
+    }
+  }
 }
 
 /* Navbar */
@@ -31,7 +37,7 @@ nav ul {
   right: 0;
   z-index: 999;
 
-  width: 30%;
+  width: 34%;
   height: 100vh;
   margin: 0;
   padding: 2em;
@@ -48,7 +54,7 @@ nav ul {
     margin: 2em 0;
 
     &:nth-of-type(1) {
-      margin-bottom: 4em;
+      margin: 0 0 4em 0;
     }
 
     a {
