@@ -19,7 +19,7 @@
 
 </details>
 <details>
-<summary>Mobile</summary>
+<summary>Mobile <em>[iPhone 14 & 15 Pro Max]</em></summary>
 
 | ![Mobile without menu](docs/mobile1.png) | ![Mobile with menu](docs/mobile2.png) |
 |------------------------------------------|---------------------------------------|
@@ -27,14 +27,14 @@
 </details>
 
 <details>
-<summary>Tablet</summary>
+<summary>Tablet <em>[iPod Pro 12.9" ]</em></summary>
 
 ![Tablet](docs/tablet.png)
 
 </details>
 
 <details>
-<summary>Desktop</summary>
+<summary>Desktop <em>[Screen 16:9]</em></summary>
 
 ![Tablet](docs/full-content.png)
 
