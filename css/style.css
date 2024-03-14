@@ -71,7 +71,7 @@ nav ul {
 }
 
 .hero {
-  margin-top: 7em;
+  margin-top: 6.5em;
 
   h1, p {
     text-align: center;
@@ -90,14 +90,14 @@ nav ul {
 
   p {
     font-size: 1.2rem;
-    line-height: 1.5;
+    line-height: 1.4;
   }
 
   .primary-cta {
     display: block;
 
     width: 17rem;
-    margin: 2em auto 0 auto;
+    margin: 1.7em auto 0 auto;
     padding: 0.4em;
     box-sizing: border-box;
 
@@ -118,7 +118,7 @@ nav ul {
 
 .cat {
   position: relative;
-  height: 500px;
+  height: 450px;
 
   img {
     position: absolute;
@@ -127,7 +127,7 @@ nav ul {
 
     height: 247px;
 
-    transform: translate(-36%, -50%);
+    transform: translate(-36%, -35%);
   }
 
   .inner-circle, .outer-circle {
@@ -136,8 +136,6 @@ nav ul {
     top: 50%;
 
     border-radius: 50%;
-
-    transform: translate(-50%, -50%);
   }
 
   .inner-circle {
@@ -147,6 +145,8 @@ nav ul {
     height: 305px;
 
     background-color: #FFEBC3;
+
+    transform: translate(-50%, -40%);
   }
 
   .outer-circle {
@@ -156,5 +156,7 @@ nav ul {
     height: 573px;
 
     background-color: white;
+
+    transform: translate(-50%, -50%);
   }
 }
