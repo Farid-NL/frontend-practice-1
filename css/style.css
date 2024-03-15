@@ -242,4 +242,22 @@ a.primary-cta {
     width: 20rem;
     font-size: 2.25rem;
   }
+
+  .cat {
+    height: 700px;
+
+    img {
+      height: 587px;
+    }
+
+    .inner-circle {
+      width: 725px;
+      height: 725px;
+    }
+
+    .outer-circle {
+      width: 1362px;
+      height: 1362px;
+    }
+  }
 }
