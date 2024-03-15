@@ -22,11 +22,11 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+}
 
-  .header-left {
-    img {
-      height: 2em;
-    }
+.header-left {
+  img {
+    height: 2em;
   }
 }
 
@@ -92,27 +92,27 @@ nav ul {
     font-size: 1.2rem;
     line-height: 1.4;
   }
+}
 
-  .primary-cta {
-    display: block;
+a.primary-cta {
+  display: block;
 
-    width: 17rem;
-    margin: 1.7em auto 0 auto;
-    padding: 0.4em;
-    box-sizing: border-box;
+  width: 17rem;
+  margin: 1.7em auto 0 auto;
+  padding: 0.4em;
+  box-sizing: border-box;
 
-    background-color: #FFA800;
-    border-radius: 0.25em;
+  background-color: #FFA800;
+  border-radius: 0.25em;
 
-    font-weight: bold;
-    font-size: 2.25rem;
-    color: black;
-    text-align: center;
-    text-decoration: none;
+  font-weight: bold;
+  font-size: 2.25rem;
+  color: black;
+  text-align: center;
+  text-decoration: none;
 
-    &:hover {
-      box-shadow: inset 0 0 0 0.2rem black;
-    }
+  &:hover {
+    box-shadow: inset 0 0 0 0.2rem black;
   }
 }
 
