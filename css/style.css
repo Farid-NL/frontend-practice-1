@@ -118,7 +118,8 @@ a.primary-cta {
 
 .cat {
   position: relative;
-  height: 450px;
+  height: 500px;
+  width: 100%;
 
   img {
     position: absolute;
@@ -126,8 +127,7 @@ a.primary-cta {
     top: 50%;
 
     height: 247px;
-
-    transform: translate(-36%, -35%);
+    transform: translate(-50%, -50%);
   }
 
   .inner-circle, .outer-circle {
@@ -136,6 +136,8 @@ a.primary-cta {
     top: 50%;
 
     border-radius: 50%;
+
+    transform: translate(-50%, -50%);
   }
 
   .inner-circle {
@@ -145,18 +147,14 @@ a.primary-cta {
     height: 305px;
 
     background-color: #FFEBC3;
-
-    transform: translate(-50%, -40%);
   }
 
   .outer-circle {
     z-index: -2;
 
-    width: 573px;
-    height: 573px;
+    width: 500px;
+    height: 500px;
 
     background-color: white;
-
-    transform: translate(-50%, -50%);
   }
 }
