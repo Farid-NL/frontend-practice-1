@@ -83,12 +83,14 @@ nav ul {
     img {
       display: block;
 
-      height: 0.85em;
+      height: 1.5em;
       margin: 0.2em auto 0 auto;
     }
   }
 
   p {
+    margin-top: 2em;
+
     font-size: 1.2rem;
     line-height: 1.4;
   }
