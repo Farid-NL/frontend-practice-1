@@ -261,3 +261,40 @@ a.primary-cta {
     }
   }
 }
+
+@media (min-width: 992px) {
+  .wrapper {
+    margin: 3.5em 8em;
+  }
+
+  .hero {
+    display: flex;
+    h1, p {
+      text-align: left;
+    }
+
+    h1 {
+      font-size: 5.75rem;
+
+      img {
+        margin: 0.2em 0 0 0;
+      }
+    }
+
+    p {
+      margin: 2em 0 1em 0;
+    }
+  }
+
+  .hero-left {
+    width: 52%;
+  }
+
+  a.primary-cta {
+    margin: 3em 0 0 0;
+  }
+
+  .cat-container {
+    width: 50%;
+  }
+}
